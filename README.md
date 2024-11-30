@@ -1,5 +1,5 @@
 # Virtual-Memory-Paging-Simulation
-Page Table Simulation by Volodymyr Zabolontyi
+
 This program simulates a virtual memory paging system by managing a page table and main memory. It tracks memory references and calculates page faults based on access patterns.
 
 The page table maps virtual memory pages to physical memory frames, and each access is tracked for hits and misses. When a page fault occurs (i.e., a page is accessed that is not currently in main memory), the program simulates the loading of that page into a free frame. If no free frames are available, the program will replace the least recently used frame with the new page.
